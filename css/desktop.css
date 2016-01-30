@@ -1,0 +1,21 @@
+.img-list figure:hover span.text-content {
+	opacity:1;
+}
+
+@media (max-width:960px) {
+	.img-list figure {
+		width:31.33%;		
+	}
+}
+
+@media (max-width:777px) {
+	
+	nav { max-width: 100%; margin:0 auto; }
+	
+	nav ul li { display: block; float: left; width: 25%; }
+	
+	nav ul li a { width:100%; text-align:center; }
+	
+	#container { top:65px; }
+	
+}

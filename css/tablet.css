@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container { position:relative; top:70px; }
+
+nav { max-width: 100%; margin:0 auto; }
+	
+nav ul li { display: block; float: left; width: 25%; }
+	
+nav ul li a { width:100%; text-align:center; }
+	
+#container { top:65px; }
+	
+#resume { text-align:left; }
+
+#graphic ul li, #web ul li { width:45%; }
+
+span { display:none; }
+
+figure { margin:0; padding:0; display:block; vertical-align:middle; }
+
+.img-list img { width:100%; }
+ 
+.img-list figure {
+display:inline-block;
+position: relative;
+max-width:230px;
+margin:0.25em .5%;
+width:20%;
+}
+
+span.text-content {
+background: rgba(0,0,0,0.6);
+color: white;
+cursor: pointer;
+display: block;
+height:88.5%;
+left: 0;
+position: absolute;
+top: 0;
+width:90%;
+opacity: 0;
+text-align:left;
+padding:10% 5%;
+}
+ 
+span.text-content span {
+display: table-cell;
+vertical-align: middle;
+/*text-align: center;
+vertical-align: middle;
+width:100%;*/
+}
+
+section { overflow:hidden; }
+
+.img-list figure {
+	width:31.33%;		
+}
+
+@media only screen and (max-width:490px) { 
+
+	nav ul li a { font-size:1em; }
+
+}
+
+@media only screen and (max-width:446px) { 
+
+	footer p { float:none; text-align:center; }
+	footer ul { text-align:center; margin-top:1em; }
+
+}
